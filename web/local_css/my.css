@@ -1,0 +1,70 @@
+#map{
+    z-index:  -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#local{
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    height: 6%;
+}
+
+#bs-example-navbar-collapse-1{
+    background-color: black;
+}
+#map .ol-zoom-in{
+	margin-top:47px;
+}
+
+#tableScorll{
+    overflow-x: auto;
+}
+.table tbody tr th{
+    overflow: hidden; 
+    text-overflow:ellipsis;  
+    white-space: nowrap; 
+}
+.table tbody tr th a{
+    text-decoration: none;
+}
+
+/* 滚动条样式 */
+.dropdown-menu::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+}
+.dropdown-menu::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #535353;
+}
+.dropdown-menu::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: black;
+}
+
+#tableScorll::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 1px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 10px;
+}
+#tableScorll::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #808080;
+}
+#tableScorll::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: white;
+}
+/* 滚动条样式 */
+/*文件上传下载按钮样式*/
+#lefile{
+    display: none;
+}
+#photoCover{
+    height:32px;
+}
